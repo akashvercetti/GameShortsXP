@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GameShortsXP/static/css/main.cd002a65.css",
-    "main.js": "/GameShortsXP/static/js/main.48db6ec9.js",
+    "main.js": "/GameShortsXP/static/js/main.9ec7c209.js",
     "static/js/453.f1ea2376.chunk.js": "/GameShortsXP/static/js/453.f1ea2376.chunk.js",
     "static/media/screenshot2.png": "/GameShortsXP/static/media/screenshot2.0ed255a066b75a03d97c.png",
     "static/media/screenshot3.png": "/GameShortsXP/static/media/screenshot3.818089639ae1ae0f66ad.png",
@@ -10,11 +10,11 @@
     "static/media/icon.png": "/GameShortsXP/static/media/icon.b4222aeb0d808d6800e1.png",
     "index.html": "/GameShortsXP/index.html",
     "main.cd002a65.css.map": "/GameShortsXP/static/css/main.cd002a65.css.map",
-    "main.48db6ec9.js.map": "/GameShortsXP/static/js/main.48db6ec9.js.map",
+    "main.9ec7c209.js.map": "/GameShortsXP/static/js/main.9ec7c209.js.map",
     "453.f1ea2376.chunk.js.map": "/GameShortsXP/static/js/453.f1ea2376.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd002a65.css",
-    "static/js/main.48db6ec9.js"
+    "static/js/main.9ec7c209.js"
   ]
 }
