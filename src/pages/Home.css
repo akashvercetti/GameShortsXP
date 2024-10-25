@@ -1,0 +1,44 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+    background-color: #f8f9fa;
+  }
+  
+  /* Header */
+  
+  .logo {
+    width: 150px; /* Adjust based on your logo size */
+  }
+  
+  .google-play-button {
+    margin-left: auto; /* Pushes the button to the right */
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    text-align: center;
+  
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #353799;
+  }
+  
+  .screenshot-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Allows screenshots to wrap on smaller screens */
+  }
+  
+  .screenshot {
+    width: 200px; /* Adjust based on your screenshot size */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
