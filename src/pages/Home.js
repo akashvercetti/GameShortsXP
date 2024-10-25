@@ -10,7 +10,7 @@ const Home = () => {
     <div className="home-container">
       {/* Hero Section with Screenshots */}
       <section className="hero-section">
-        <h1 className="hero-title">Stay Updated with the Latest Gaming News</h1>
+        <h1 className="hero-title">Gaming News in 60-100 words</h1>
         <div className="screenshot-gallery">
           <img src={screenshot1} alt="Screenshot 1" className="screenshot" />
           <img src={screenshot2} alt="Screenshot 2" className="screenshot" />
