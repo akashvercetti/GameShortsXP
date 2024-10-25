@@ -6,7 +6,7 @@ import googlePlayBadge from '../assets/google-play-badge.png'; // Path to your G
 const Header = () => {
   return (
     <header className="header">
-      <a href="/home">
+      <a href="/">
       <img src={logo} alt="App Logo" className="logo" />
       </a>
       <a href="https://play.google.com/store/apps/details?id=com.akashvercetti.gameshortsxp">
