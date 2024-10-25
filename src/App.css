@@ -1,17 +1,17 @@
-/* Ensure the body and html take up the full height */
+/* app.css */
 html, body {
   height: 100%;
   margin: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 #root {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Make the root container take up the full viewport height */
+  min-height: 100vh;
 }
 
 .content {
-  flex: 1; /* This will make the content take up the remaining space, pushing the footer down */
+  flex: 1;
+  padding: 16px; /* Add padding for mobile */
 }
-
-
