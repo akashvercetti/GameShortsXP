@@ -1,13 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import './Footer.css';
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-links">
-        <a href="/contact-us" className="footer-link">Contact Us</a>
+        <Link to="/contact-us" className="footer-link">Contact Us</Link>
         <span> | </span> {/* Separator */}
-        <a href="/privacy-policy" className="footer-link">Privacy Policy</a>
+        <Link to="/privacy-policy" className="footer-link">Privacy Policy</Link>
       </div>
     </footer>
   );

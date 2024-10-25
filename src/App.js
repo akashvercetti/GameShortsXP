@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import ContactUs from './pages/ContactUs';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import Home from './pages/Home';
-import './App.css'; // Import your CSS file
+import './App.css';
 
 function App() {
   return (
@@ -14,9 +14,9 @@ function App() {
         <Header />
         <div className="content">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/contact-us" element={<ContactUs />} />
-            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/contact-us" element={<ContactUs />} />
+            <Route exact path="/privacy-policy" element={<PrivacyPolicy />} />
           </Routes>
         </div>
         <Footer />

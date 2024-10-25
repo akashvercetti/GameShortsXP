@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './ContactUs.css';
 
 const ContactUs = () => {
+  useEffect(() => {
+    console.log('contact us')
+  });
+
   return (
     <div className="contact-container">
       <h2>Contact Us</h2>
