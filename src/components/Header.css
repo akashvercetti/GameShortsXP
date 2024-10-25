@@ -1,25 +1,32 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background: linear-gradient(45deg, #7CE3FB, #5399E8, #353799); /* Gradient background */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Slightly darker shadow for depth */
-  }
-  
-  .logo {
-    width: 100%; /* Set width to desired size */
-    height: 100%; /* Set height to the same value to make it a square */
-    object-fit: contain; /* Ensures the image covers the entire square without stretching */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(45deg, #7CE3FB, #5399E8, #353799);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
-  
-  .google-play-badge {
-    height: 80px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .google-play-badge:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
-  }
-  
+
+.logo {
+  width: 100px; /* Adjusted size */
+  height: 100px;
+  object-fit: contain;
+}
+
+.app-title {
+  font-size: 2.4rem; /* Adjust font size as needed */
+  color: white;
+  font-weight: bold;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.google-play-badge {
+  height: 80px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.google-play-badge:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
