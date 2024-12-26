@@ -12,10 +12,10 @@ const Home = () => {
       <section className="hero-section">
         <h1 className="hero-title">Gaming News in 60-100 words</h1>
         <div className="screenshot-gallery">
-          <img src={screenshot1} alt="Screenshot 1" className="screenshot" />
-          <img src={screenshot2} alt="Screenshot 2" className="screenshot" />
-          <img src={screenshot3} alt="Screenshot 3" className="screenshot" />
-          <img src={screenshot4} alt="Screenshot 4" className="screenshot" />
+          <img src={screenshot1} alt="GameShortsXP Screenshot 1" className="screenshot" />
+          <img src={screenshot2} alt="GameShortsXP Screenshot 2" className="screenshot" />
+          <img src={screenshot3} alt="GameShortsXP Screenshot 3" className="screenshot" />
+          <img src={screenshot4} alt="GameShortsXP Screenshot 4" className="screenshot" />
         </div>
       </section>
 
